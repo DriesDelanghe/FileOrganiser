@@ -76,7 +76,7 @@ videoTypesList = FormatList(videoTypes)
 videoTypes.close()
 
 user = getpass.getuser()
-myDir = "c:/Users/"+user+"/Downloads"
+myDir = "c:/Gebruikers/"+user+"/Downloads"
     
 with os.scandir(myDir) as entries:
     for entry in entries:
