@@ -19,7 +19,7 @@ def changeDir(destination):
         
 def moveFileToDir(Dir, file, fileType):
     p = Path(Dir + "\\" + fileType)
-    p.os.mkdir(exist_ok=True)
+    p.mkdir(exist_ok=True)
     path = str(p)
     path = path.replace("\\", "/")
     
@@ -33,7 +33,7 @@ def zipFileHandler(dir, file):
     data_zip = zipfile.ZipFile(file, 'r')
 
     p = Path(dir + "\\" + 'zip')
-    p.os.mkdir(exist_ok=True)
+    p.mkdir(exist_ok=True)
     path = str(p)
     path = path.replace("\\", "/")
     
