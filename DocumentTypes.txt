@@ -1,0 +1,13 @@
+doc,
+docx,
+html,
+htm,
+odt,
+pdf,
+xls,
+xml,
+xlsx,
+ods,
+ppt,
+pptx,
+txt

@@ -1,0 +1,7 @@
+mp3,
+aac,
+wma,
+flac,
+alac,
+wav,
+aiff
