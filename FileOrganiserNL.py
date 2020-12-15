@@ -14,7 +14,7 @@ import getpass
 
 def changeDir(destination):
     user = getpass.getuser()
-    myDir = "c:/Users/"+user+"/" + destination
+    myDir = "c:/Gebruikers/"+user+"/" + destination
     return myDir
         
 def moveFileToDir(Dir, file, fileType):
